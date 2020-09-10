@@ -1,0 +1,25 @@
+{
+  "name": "lab-google-maps-api",
+  "version": "1.0.0",
+  "description": "Project to test & play with Google Maps API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inigomarquinez/lab-google-maps-api.git"
+  },
+  "keywords": [
+    "lab",
+    "google",
+    "maps",
+    "api"
+  ],
+  "author": "Iñigo Marquínez Prado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/inigomarquinez/lab-google-maps-api/issues"
+  },
+  "homepage": "https://github.com/inigomarquinez/lab-google-maps-api#readme"
+}
