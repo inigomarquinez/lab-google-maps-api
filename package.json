@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/inigomarquinez/lab-google-maps-api#readme",
   "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.1.6",
     "dotenv": "^8.2.0",
     "inquirer": "^7.3.3"
   },
