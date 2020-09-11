@@ -4,6 +4,7 @@
   "description": "Project to test & play with Google Maps API",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/inigomarquinez/lab-google-maps-api/issues"
   },
-  "homepage": "https://github.com/inigomarquinez/lab-google-maps-api#readme"
+  "homepage": "https://github.com/inigomarquinez/lab-google-maps-api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3"
+  }
 }
