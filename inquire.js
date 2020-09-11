@@ -1,5 +1,7 @@
 const inquirer = require('inquirer');
 
+const { geolocation } = require('./services');
+
 const chooseTestQuestion = [{
   type: 'list',
   name: 'action',
@@ -12,14 +14,14 @@ const chooseTestQuestion = [{
     {
       name: 'Quit',
       value: 'quit',
-    }
+    },
   ],
 }];
 
-const runTest = async answer => {
+const runTest = async (answer) => {
   switch (answer) {
     case 'geolocation':
-      console.log('geolocation service');
+      geolocation();
       break;
 
     default:
@@ -30,11 +32,11 @@ const runTest = async answer => {
 const prompt = () => {
   inquirer
     .prompt(chooseTestQuestion)
-    .then(chooseTestAnswer => {
+    .then((chooseTestAnswer) => {
       const { action } = chooseTestAnswer;
       runTest(action);
     })
-    .catch(error => {
+    .catch((error) => {
       throw error;
     });
 };
